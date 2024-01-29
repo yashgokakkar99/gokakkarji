@@ -7,3 +7,10 @@ body{
 .card{
     background-color: rgba(128,128,128,0.173);
 }
+
+.gradient-text{
+    background: linear-gradient(to right,#8B5CF6, #FF7C7C );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
