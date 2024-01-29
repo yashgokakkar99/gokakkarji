@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background: linear-gradient(to right, #8B5CF6, #FF7C7C);
+}
+.card{
+    background-color: rgba(128,128,128,0.173);
+}
