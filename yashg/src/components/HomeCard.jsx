@@ -4,8 +4,8 @@ import mypic from "../assets/yashpic.png";
 
 const HomeCard = () => {
   return (
-    <div className="min-h-screen ">
-      <div>
+    <>
+      <div data-aos="fade-right">
         <p>
           <span className="text-2xl lg:text-4xl font-bold text-white">
             <Typewriter
@@ -20,7 +20,7 @@ const HomeCard = () => {
           </span>
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between items-center mb-20 lg:mb-36">
+      <div data-aos="fade-right"className="flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between items-center mb-20 lg:mb-36">
         <div className="flex flex-col gap-5 lg:w-[50%]">
           <p className="text-xl lg:text-2xl font-bold text-white pt-10">
             I'm Yash Gokakkar, a final-year Computer Engineering student with a
@@ -28,11 +28,11 @@ const HomeCard = () => {
             principles, along with basic DSA understanding.
           </p>
         </div>
-        <div>
+        <div data-aos="fade-left">
           <img src={mypic} alt="Yash Gokakkar" className="rounded-full w-[200px] h-[200px] lg: w-[450px] h-[450px] mx-auto"></img>
         </div>
       </div>
-    </div>
+      </>
   );
 };
 
