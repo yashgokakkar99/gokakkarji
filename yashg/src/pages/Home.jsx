@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../components/card";
 import HomeCard from "../components/HomeCard";
 import EducationCard from "../components/EducationCard";
+import ProjectsSection from "../components/ProjectsSection";
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Card />
       <HomeCard />
       <EducationCard/>
+      <ProjectsSection/>
     </div>
   );
 };
