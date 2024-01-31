@@ -19,7 +19,7 @@ const SkillsSection = () => {
     <div className="mb-20 lg:mb-36">
       <div data-aos="zoom-in" className="mb-10">
         <h1 className="fron-con flex space-x-4 pb-4 justify-center text-xl font-bold text-white">Front-end</h1>
-        <div className="fron-con flex space-x-4 pb-4 justify-center">
+        <div className="fron-con flex space-x-4 pb-4 justify-center flex-wrap gap-4">
           <img src={html} alt="HTML5" className="h-[5rem] w-[5rem] hover:scale-125"/>
           <img src={css} alt="CSS3" className="h-[5rem] w-[5rem] hover:scale-125"/>
           <img src={js} alt="Javascript" className="h-[5rem] w-[5rem] hover:scale-125"/>
@@ -30,7 +30,7 @@ const SkillsSection = () => {
       </div>
       <div data-aos="zoom-in" className="mb-10">
         <h1 className="fron-con flex space-x-4 pb-4 justify-center text-xl font-bold text-white">Back-end</h1>
-        <div className="fron-con flex space-x-4 pb-4 justify-center">
+        <div className="fron-con flex space-x-4 pb-4 justify-center flex-wrap gap-4">
           <img src={node} alt="Node" className="h-[5rem] w-[5rem] hover:scale-125"/>
           <img src={express} alt="Express" className="h-[5rem] w-[5rem] hover:scale-125"/>
           <img src={mongodb} alt="MongoDB" className="h-[5rem] w-[5rem] hover:scale-125"/>
@@ -40,7 +40,7 @@ const SkillsSection = () => {
       </div>
       <div data-aos="zoom-in" className="mb-10">
         <h1 className="fron-con flex space-x-4 pb-4 justify-center text-xl font-bold text-white">Programming Languages</h1>
-        <div className="fron-con flex space-x-4 pb-4 justify-center">
+        <div className="fron-con flex space-x-4 pb-4 justify-center flex-wrap gap-4">
           <img src={c} alt="C" className="h-[5rem] w-[5rem] hover:scale-125"/>
           <img src={cpp} alt="C++" className="h-[5rem] w-[5rem] hover:scale-125"/>
           <img src={python} alt="Python" className="h-[5rem] w-[5rem] hover:scale-125"/>
