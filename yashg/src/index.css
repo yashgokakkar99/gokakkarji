@@ -18,3 +18,8 @@ body{
 .scroll-hide::-webkit-scrollbar{
     display: none;
 }
+
+.text-color
+{
+    color: white;
+}

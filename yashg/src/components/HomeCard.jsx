@@ -2,6 +2,7 @@ import React from "react";
 import { Typewriter, Cursor } from "react-simple-typewriter";
 import mypic from "../assets/yashpic.png";
 
+
 const HomeCard = () => {
   return (
     <>
@@ -27,6 +28,8 @@ const HomeCard = () => {
             fundamental grasp of Frontend development, MERN stack, and C++ OOP
             principles, along with basic DSA understanding.
           </p>
+          <a href="https://drive.google.com/file/d/1-w7fhBBeVD-nKe2WkLcFFLav4XDLtnf_/export?format=pdf" download="Resume.pdf">Download Resume</a>
+
         </div>
         <div data-aos="fade-left">
           <img src={mypic} alt="Yash Gokakkar" className="rounded-full w-[200px] h-[200px] lg: w-[450px] h-[450px] mx-auto"></img>

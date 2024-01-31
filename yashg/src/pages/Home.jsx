@@ -7,11 +7,12 @@ import ContactSection from "../components/ContactSection";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaFirstAid } from "react-icons/fa";
+import SkillsSection from "../components/SkillsSection";
 
 const Home = () => {
   useEffect(() => {
     AOS.init({
-      duration:1500,
+      duration: 1500,
     });
   }, []);
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Card />
       <HomeCard />
       <EducationCard />
+      <SkillsSection />
       <ProjectsSection />
       <ContactSection />
     </div>
