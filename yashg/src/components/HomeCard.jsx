@@ -28,7 +28,7 @@ const HomeCard = () => {
             fundamental grasp of Frontend development, MERN stack, and C++ OOP
             principles, along with basic DSA understanding.
           </p>
-          <a href="https://drive.google.com/file/d/1-w7fhBBeVD-nKe2WkLcFFLav4XDLtnf_/export?format=pdf" download="Resume.pdf">Download Resume</a>
+          <a href="../assets/Resume.pdf" download="Yash_Gokakkar.pdf">Download Resume</a>
 
         </div>
         <div data-aos="fade-left">
@@ -40,3 +40,4 @@ const HomeCard = () => {
 };
 
 export default HomeCard;
+//https://drive.google.com/file/d/1-w7fhBBeVD-nKe2WkLcFFLav4XDLtnf_/export?format=pdf
