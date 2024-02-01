@@ -23,6 +23,12 @@ const Home = () => {
       <SkillsSection />
       <ProjectsSection />
       <ContactSection />
+      <footer className="text-center py-4 font-mono text-white">
+  <p className="text-sm">
+    &copy; {new Date().getFullYear()} Yash Gokakkar. All rights reserved.
+  </p>
+</footer>
+
     </div>
   );
 };
