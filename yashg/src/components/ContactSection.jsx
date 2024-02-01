@@ -25,10 +25,10 @@ const ContactSection = () => {
               +91 7499822665
             </a>
           </div>
-          <div className="flex gap-2 mt-2">
-            <FaGithub className="text-white text-2xl" />
-            <FaLinkedin className="text-white text-2xl" />
-            <FaInstagram className="text-white text-2xl" />
+          <div className="flex gap-4 mt-4">
+            <a href="https://github.com/yashgokakkar99" target="_blank"><FaGithub className="text-white text-5xl hover:cursor-pointer" /></a>
+            <a href="https://www.linkedin.com/in/yash-ashok-gokakkar-426965202/" target="_blank"><FaLinkedin className="text-white text-5xl hover:cursor-pointer" /></a>
+            <a href="https://www.instagram.com/yashgokakkar99/" target="_blank"><FaInstagram className="text-white text-5xl hover:cursor-pointer" /></a>
           </div>
           <h2 className="text-2xl font-bold text-white text-center lg:hidden">
             Or

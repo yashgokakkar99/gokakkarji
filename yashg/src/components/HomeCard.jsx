@@ -1,6 +1,7 @@
 import React from "react";
 import { Typewriter, Cursor } from "react-simple-typewriter";
 import mypic from "../assets/yashpic.png";
+import cv from "../assets/Yash_Gokakkar_Resume.pdf";
 
 
 const HomeCard = () => {
@@ -28,7 +29,9 @@ const HomeCard = () => {
             fundamental grasp of Frontend development, MERN stack, and C++ OOP
             principles, along with basic DSA understanding.
           </p>
-          <a href="../assets/Resume.pdf" download="Yash_Gokakkar.pdf">Download Resume</a>
+          <a href={cv} target="_blank" download className="w-[175px] px-4 py-2 bg-[#FF7C7C] text-white font-bold rounded-lg hover:bg-[#FF5A5A] focus:outline-none  focus:border-[#FF5A5A]">
+            Download Resume
+          </a>
 
         </div>
         <div data-aos="fade-left">
