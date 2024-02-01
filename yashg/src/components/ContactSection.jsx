@@ -30,7 +30,7 @@ const ContactSection = () => {
             <a href="https://www.linkedin.com/in/yash-ashok-gokakkar-426965202/" target="_blank"><FaLinkedin className="text-white text-5xl hover:cursor-pointer" /></a>
             <a href="https://www.instagram.com/yashgokakkar99/" target="_blank"><FaInstagram className="text-white text-5xl hover:cursor-pointer" /></a>
           </div>
-          <h2 className="text-2xl font-bold text-white text-center lg:hidden">
+          <h2 className="text-2xl font-bold text-white text-center lg:hidden mt-6">
             Or
           </h2>
         </div>
