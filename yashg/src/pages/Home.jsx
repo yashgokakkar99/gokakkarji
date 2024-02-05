@@ -23,12 +23,21 @@ const Home = () => {
       <SkillsSection />
       <ProjectsSection />
       <ContactSection />
+      <div className="Counter">
+        <a href="https://www.hitwebcounter.com" target="_blank">
+          <img
+            src="https://hitwebcounter.com/counter/counter.php?page=11192190&style=0006&nbdigits=5&type=page&initCount=0"
+            title="Counter Widget"
+            Alt="Visit counter For Websites"
+            border="0"
+          />
+        </a>
+      </div>
       <footer className="text-center py-4 font-mono text-white">
-  <p className="text-sm">
-    &copy; {new Date().getFullYear()} Yash Gokakkar. All rights reserved.
-  </p>
-</footer>
-
+        <p className="text-sm">
+          &copy; {new Date().getFullYear()} Yash Gokakkar. All rights reserved.
+        </p>
+      </footer>
     </div>
   );
 };
